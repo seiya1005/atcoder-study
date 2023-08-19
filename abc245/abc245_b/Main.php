@@ -1,16 +1,9 @@
 <?php
-// Nを取得
-$N = intval(trim(fgets(STDIN)));
-
-// Aを取得
-$A = array_map('intval', explode(' ', trim(fgets(STDIN))));
-
-// 数列Aに含まれない最小の非負整数を求める
-$min = 0;
-while (in_array($min, $A)) {
-  $min++;
+fscanf(STDIN, "%d", $N);
+$array = explode(" ", trim(fgets(STDIN)));
+for ($i = 0; $i <= 2000; $i++) {
+  if (in_array($i, $array) === false) {
+    echo $i;
+    break;
+  }
 }
-
-// 結果を出力
-echo $min;
-?>

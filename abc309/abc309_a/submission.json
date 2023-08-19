@@ -1,12 +1,12 @@
 {
-	"id": 43558769,
-	"epoch_second": 1689338275,
+	"id": 43777833,
+	"epoch_second": 1689852137,
 	"problem_id": "abc309_a",
 	"contest_id": "abc309",
 	"user_id": "ssksiy",
-	"language": "PHP (7.4.4)",
+	"language": "Java (OpenJDK 11.0.6)",
 	"point": 100,
-	"length": 130,
+	"length": 641,
 	"result": "AC",
-	"execution_time": 24
+	"execution_time": 114
 }
